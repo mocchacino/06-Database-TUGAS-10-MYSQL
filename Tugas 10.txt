@@ -1,0 +1,13 @@
+1.	create database importdata
+    	;
+
+2.	create table buahbuahan(
+    	id_buah int(10) primary key,
+    	nama_buah varchar(50),
+    	varietas_buah varchar(5)
+    	);
+
+3.	DROP TABLE IF EXIST buahbuahan
+	source C:\xampp\mysql\data\importdata\buahbuahan.sql
+	atau 
+	source {Location file sql yang mau diimport}
